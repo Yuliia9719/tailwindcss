@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/output.css">
+  <title>TailwindCSS</title>
+</head>
+
+<body class="bg-white dark:bg-slate-800 font-main">
+  <!-- container start-->
+  <div class="px-4 max-w-screen-xl mx-auto">
+    <!-- header -->
+    <header class="px-2 pb-3 border-b flex items-center gap-8 justify-between mb-10">
+      <a class="text-xl font-extrabold uppercase text-orange-700 block py-4 dark:text-orange-500" href="">Site<span
+          class="inline-block border border-yellow-500 py-1 px-2 text-green-700 dark:text-green-600 dark:border-yellow-400">logo</span></a>
+      <nav class="hidden md:block">
+        <ul class=" font-semibold text-gray-400 flex items-center gap-6">
+          <li><a class="navbar-link" href="">Home</a></li>
+          <li><a class="navbar-link" href="">Blog</a></li>
+          <li><a class="navbar-link" href="">Contacts</a></li>
+          <li><a class="navbar-link" href="">News</a></li>
+          <li><a class="navbar-link" href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <button class="md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-8 h-8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </header>
+    <!-- main -->
+    <main>
+
+      <section class="px-2 flex gap-2 responsive mb-10">
+        <!-- hero section -->
+        <article class="h-64 md:h-96 md:w-2/3 relative overflow-hidden rounded-xl">
+          <a class="hero-link group" href="">
+            <h2 class="hero-title text-gray-900 ">Lorem ipsum dolor
+              sit amet
+              consectetur.</h2>
+            <img class="hero-image" src="assets/img/img1.jpg" alt="nature">
+            <!-- overlay -->
+            <div class="hero-overlay from-blue-500 via-transparent to-cyan-600">
+            </div>
+          </a>
+        </article>
+
+        <article class="h-64 md:h-96 md:w-1/3 relative overflow-hidden rounded-xl">
+          <a class="hero-link group" href="">
+            <h2 class="hero-title text-cyan-200">Reiciendis ab
+              aspernatur
+              repellat
+              iure!</h2>
+            <img class="hero-image" src="assets/img/img5.jpg" alt="nature">
+            <!-- overlay -->
+            <div class="hero-overlay from-violet-200 via-transparent to-fuchsia-300">
+            </div>
+          </a>
+        </article>
+      </section>
+
+      <div class="px-2 flex gap-10 responsive mb-10">
+        <!-- articles -->
+        <section class="flex-grow basis-0">
+          <h1 class="text-3xl font-extrabold text-amber-600 mb-10 dark-title">Ducimus similique quis sint</h1>
+          <article class="mb-4">
+            <a class="flex gap-4 responsive" href="">
+              <div>
+                <h2 class="article-title light-content">Lorem ipsum dolor sit amet consectetur.</h2>
+                <p class="text-slate-400 light-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reiciendis ab
+                  aspernatur
+                  repellat iure! Magnam
+                  explicabo omnis ipsam perferendis. Ea in veritatis nemo?</p>
+              </div>
+              <img class="article-img" src="assets/img/img2.jpg" alt="nature">
+            </a>
+          </article>
+
+          <article class="mb-4">
+            <a class="flex gap-4 responsive" href="">
+              <div>
+                <h2 class="article-title light-content">Lorem ipsum dolor sit amet consectetur.</h2>
+                <p class="text-slate-400 light-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reiciendis ab
+                  aspernatur
+                  repellat iure! Magnam
+                  explicabo omnis ipsam perferendis. Ea in veritatis nemo?</p>
+              </div>
+              <img class="article-img" src="assets/img/img3.jpg" alt="nature">
+            </a>
+          </article>
+
+          <article class="mb-4">
+            <a class="flex gap-4 responsive" href="">
+              <div>
+                <h2 class="article-title light-content">Lorem ipsum dolor sit amet consectetur.</h2>
+                <p class="text-slate-400 light-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reiciendis ab
+                  aspernatur
+                  repellat iure! Magnam
+                  explicabo omnis ipsam perferendis. Ea in veritatis nemo?</p>
+              </div>
+              <img class="article-img" src="assets/img/img4.jpg" alt="nature">
+            </a>
+          </article>
+
+          <article class="mb-4">
+            <a class="flex gap-4 responsive" href="">
+              <div>
+                <h2 class="article-title light-content">Lorem ipsum dolor sit amet consectetur.</h2>
+                <p class="text-slate-400 light-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reiciendis ab
+                  aspernatur
+                  repellat iure! Magnam
+                  explicabo omnis ipsam perferendis. Ea in veritatis nemo?</p>
+              </div>
+              <img class="article-img" src="assets/img/img6.jpg" alt="nature">
+            </a>
+          </article>
+
+          <article class="mb-4">
+            <a class="flex gap-4 responsive" href="">
+              <div>
+                <h2 class="article-title light-content">Lorem ipsum dolor sit amet consectetur.</h2>
+                <p class="text-slate-400 light-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reiciendis ab
+                  aspernatur
+                  repellat iure! Magnam
+                  explicabo omnis ipsam perferendis. Ea in veritatis nemo?</p>
+              </div>
+              <img class="article-img" src="assets/img/img7.jpg" alt="nature">
+            </a>
+          </article>
+          <!-- pagination -->
+          <div class="my-11">
+            <ul class="flex justify-center">
+              <li><a class="pagination-link rounded-l-md" href="">First</a></li>
+              <li><a class="pagination-link" href="">Previous</a></li>
+              <li><a class="pagination-link" href="">1</a>
+              </li>
+              <li><a class="pagination-link" href="">2</a></li>
+              <li><a class="pagination-link" href="">3</a></li>
+              <li><a class="pagination-link" href="">4</a></li>
+              <li><a class="pagination-link" href="">5</a></li>
+              <li><a class="pagination-link" href="">6</a></li>
+              <li><a class="pagination-link" href="">7</a></li>
+              <li><a class="pagination-link" href="">Next</a></li>
+              <li><a class="pagination-link rounded-r-md" href="">Last</a></li>
+            </ul>
+          </div>
+
+        </section>
+        <!-- form -->
+        <div class="ms-4 md:w-1/3">
+          <h3 class="font-bold text-lg mb-2 text-amber-500 dark-title">Subscribe to our news</h3>
+          <div>
+            <form class="w-full  shadow-md dark:shadow-yellow-50 p-4 rounded"
+              action="https://tests.fomenko.top/echo/index.php" method="get">
+              <div>
+                <label class="block mb-2 light-content" for="email">Email</label>
+                <input
+                  class="border shadow-md rounded w-full py-2 px-4 leading-tight focus:outline-none focus:shadow-pink-300"
+                  id="email" type="email" placeholder="test@gmail.com">
+              </div>
+              <div class="my-4">
+                <button
+                  class="black py-2 px-4 bg-yellow-400 rounded text-black uppercase font-semibold hover:bg-yellow-700 focus:outline-none"
+                  type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="px-2 py-5 border-t mt-6">
+      <div class="flex gap-10">
+        <div>
+          <h5 class="footer-title dark-title">About us</h5>
+          <ul>
+            <li><a class="footer-link footer-dark" href="">Our projects</a></li>
+            <li><a class="footer-link footer-dark" href="">Our team</a></li>
+            <li><a class="footer-link footer-dark" href="">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title dark-title">We are on socials</h5>
+          <ul>
+            <li><a class="footer-link footer-dark" href="">Facebook</a></li>
+            <li><a class="footer-link footer-dark" href="">Instagram</a></li>
+            <li><a class="footer-link footer-dark" href="">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex justify-center light-content">
+        <p>©All rights reserved</p>
+      </div>
+
+    </footer>
+    <!-- container end -->
+  </div>
+
+</body>
+
+</html>
